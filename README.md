@@ -25,9 +25,9 @@ Webpage: https://projects.coin-or.org/Cbc
 
 # Data Description
 
-config.txt is the configure file. It contains "product data file" "customer data file" "f file" "number of product" "number of customer" "number of attribute of each product" "number of attribute of each customer" "k (percentage)". The last two value could be ignored. 
+config.txt is the configure file. It contains "product data file" "customer data file" "f file" "number of product" "number of customer" "number of attribute of each product" "number of attribute of each customer" "k (percentage)" "parameter 1" "parameter 2". The last two value could be ignored.
 
-There are three different data files, "o", "p" and "f". "f" file defines what a matchable pair is (see Line 175 and Line 179). "p" is the product file (format:<Product id> <capacity> <attr 1><atrr 2> ...    <attr n>  <cost>). "o" is customer file (format:<Customer id><demand><attr 1><atrr 2>    ...    <attr n>    <price>).
+There are three different data files, "o", "p" and "f". "f" file defines what a matchable pair is (see Line 175 and Line 179). "p" is the product file (format: <Product id> <capacity> <attr 1><atrr 2> ... <attr n>  <cost>). "o" is customer file (format:<Customer id><demand><attr 1><atrr 2>    ...    <attr n>    <price>).
 
 # Reference
 
