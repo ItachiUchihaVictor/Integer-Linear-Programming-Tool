@@ -11,11 +11,12 @@ The program was designed to solve an Integer Problem Problem stated in Section 7
 
 The program first generates a .mod file to present the problem to be solve with data filled in (as shwon in Line 49-216). Then, it converts the .mod file into .mps file with GLPK tool as shown in Line 224 and solves the problem with CBC as shown in Line 226. In the aforementioned procedure, it generates a message.txt and solu.txt file showing the message and solution given by CBC. Finally, it removes the .mod file, the .mps file, the message.txt and the solu.txt and give a stat.txt showing the running time and space consumption of this program. 
 
-To use the program, you first need to figure out how to fill your data into the integer programming problem and modify Line 49-216. In our implementation, the vector 'amount' is the 'x' vector in the problem as shown in the figure and the vector 'profit' is the vector 'f' in the problem shown in the figure. The concatenation of the two vectors 'capacity' and 'demand' is the vector 'b' in problem as shown in the figure. A in the problem shown in the above figure is an incident matrix of a bipartite graph (https://en.wikipedia.org/wiki/Bipartite_graph). Since each column of A has exactly two 1s, we used two vector 'p' and 'o' to store the row number of the two 1s in each column.
+To use the program, you first need to figure out how to fill your data into the integer programming problem and modify Line 49-216 accordingly. In our implementation, the vector 'amount' is the 'x' vector in the problem as shown in the figure and the vector 'profit' is the vector 'f' in the problem shown in the figure. The concatenation of the two vectors 'capacity' and 'demand' is the vector 'b' in problem as shown in the figure. A in the problem shown in the above figure is an incident matrix of a bipartite graph (https://en.wikipedia.org/wiki/Bipartite_graph). Since each column of A has exactly two 1s, we used two vector 'p' and 'o' to store the row number of the two 1s in each column.
 
 # Integer Linear Programming Solver Used in This Program
 
 GLPK (GNU Linear Programming Kit) 
+
 Webpage: https://www.gnu.org/software/glpk/
 
 CBC (Coin-or branch and cut)
