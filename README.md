@@ -1,7 +1,7 @@
 # Integer-Linear-Programming-Tool-Very-Easy-to-Use-
 This program provides an Integer Linear Programming Tool that makes programmers or researchers easily solve an integer linear programming problem without too much effort made.
 
-#How It Works & How To Use It
+# How It Works & How To Use It
 
 The main souce code is ILP.cpp. 
 
@@ -20,6 +20,6 @@ CBC (Coin-or branch and cut)
 
 Webpage: https://projects.coin-or.org/Cbc
 
-Reference
+# Reference
 
 Profit Maximization with Sufficient Customer Satisfactions. Cheng Long, Raymond Chi-Wing Wong, Victor Junqiu Wei. ACM Transactions on Knowledge Discovery from Database. 
